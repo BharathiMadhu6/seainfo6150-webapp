@@ -1,0 +1,10 @@
+ul {
+    list-style: none;
+}
+
+li {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #d40b0b;
+    margin : 20px;
+} 

@@ -1,0 +1,28 @@
+
+section {
+    background-color: #f7f7f7;
+    font-size: large;
+    padding-bottom: 1.5%;
+    padding-right: 2%;
+    padding-left: 1%;
+}
+
+h1 {
+    font-family: "Times New Roman",Times, serif;
+    color: #d40b0b;
+    font-size: 200%;
+}
+
+p {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+time {
+    font-weight: bold;
+    font-size: large;
+}
+
+body {
+    background-color: grey;
+}

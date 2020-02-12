@@ -1,0 +1,11 @@
+
+button {
+    float: right;
+    background-color: #d40b0b;
+    color: white;
+    width: 150px;
+    height: 30px;
+    font-size: large;
+    width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+}

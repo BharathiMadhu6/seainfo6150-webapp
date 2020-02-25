@@ -5,12 +5,18 @@ import ArticleImage from "./ArticleImage";
 
 const ArticleListItem = props => {
   return (
-    <div className={styles.container}>
+    <html> 
+      <head> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      </head>
+       <div className={styles.container}>
       <ArticleImage url = {props.article.image} title = {props.article.title} />
       <p>{props.article.shortText}</p>
       <time className={styles.pubDate} dateTime={props.article.pubYear}>{props.article.pubDate}</time>
       <SlugButton slug={props.article.slug} buttonText={props.article.author} />
     </div>
+    </html>
+
   );
 };
 

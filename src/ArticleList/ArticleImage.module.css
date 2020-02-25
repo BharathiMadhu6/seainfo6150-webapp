@@ -1,14 +1,15 @@
  .image {
-    width: 130px;
-    height: 80px;
+    width: 150px;
+    height: 100px;
     border-radius: 50%;
-    box-shadow: 0px 0px 0px 9px #c00;
-    margin : 5px 25px;
-    float: left;
+    border-color: #c00;
+    box-shadow: 5px 15px 20px -10px rgb(48, 47, 47); 
+    margin-bottom: 25px; 
  } 
 
 .title {
     color: #c00;
     font-size: 2rem;
-    margin: .5rem 0;
+    text-align: left;
+    margin-top: 20px;
 }

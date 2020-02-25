@@ -1,8 +1,16 @@
-.container {
+*{
+    box-sizing: border-box;
+}
+
+ .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19em, 1fr));
+    column-gap: 10px;
     list-style: none;
     padding: 20px;
     margin: 20px;
     background: #999;
     border: 1px dashed #666;
-    width: 730px;
-}
+    border-radius: 15px;
+    margin-left: 20px;
+} 
